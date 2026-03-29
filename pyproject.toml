@@ -5,7 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "duckduckgo-search>=8.0.0",
     "huggingface-hub>=1.8.0",
+    "markdownify>=0.13.1",
+    "pytz>=2026.1.post1",
+    "pyyaml>=6.0.3",
+    "requests>=2.33.0",
+    "smolagents[gradio]>=1.22.0",
 ]
 
 [project.scripts]
